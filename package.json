@@ -1,0 +1,29 @@
+{
+  "name": "user-backend-microservices",
+  "version": "1.0.0",
+  "description": "This is the user microservice for the CTSE assignment's ABC company. Developed by IT19187242(Priyashan Sandunhetti S. H. S.).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supun-priyashan/user-backend-microservices.git"
+  },
+  "author": "Priyashan Sandunhetti S. H. S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supun-priyashan/user-backend-microservices/issues"
+  },
+  "homepage": "https://github.com/supun-priyashan/user-backend-microservices#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "nodemon": "^2.0.12"
+  }
+}
