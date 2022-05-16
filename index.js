@@ -13,8 +13,6 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 8080;
 const MONGODB_URI = process.env.MONGODB_URI;
-//change
-//app.set('PORT',(8080));
 
 mongoose.connect(MONGODB_URI,{
   useCreateIndex:true,
