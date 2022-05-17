@@ -1,4 +1,4 @@
 # base/kustomization.yaml
 resources:
-  - deploy.yaml
+  - deployment.yaml
 namePrefix: bar-
